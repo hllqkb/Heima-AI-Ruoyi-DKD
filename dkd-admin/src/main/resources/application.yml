@@ -31,11 +31,11 @@ server:
       # Tomcat启动初始化的线程数，默认值10
       min-spare: 100
 
-# 日志配置
 logging:
   level:
     com.dkd: debug
     org.springframework: warn
+
 
 # 用户配置
 user:
@@ -74,7 +74,7 @@ spring:
     # 数据库索引
     database: 0
     # 密码
-    password: root
+    password: 123456
     # 连接超时时间
     timeout: 10s
     lettuce:
